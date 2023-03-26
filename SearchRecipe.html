@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&family=Vazirmatn&display=swap"
+        rel="stylesheet">
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- style  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- start header  -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="images/Logo.png" alt="">
+                </div>
+                <div class="nav-search">
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search Recipe, Profile, or Ingredients">
+                </div>
+                <div class="nav-icons">
+                    <i class='bx bx-dish'></i>
+                    <i class='bx bx-envelope'></i>
+                    <img src="images/User Avatar Image.png" alt="">
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- start aside  -->
+    <aside>
+        <div class="title">
+            <h3>Search Filters</h3>
+            <i class='bx bx-slider'></i>
+        </div>
+        <div class="prog">
+            <h5>Ingredients<span>8</span></h5>
+            <div class="p1">
+                <div></div>
+            </div>
+        </div>
+        <div class="prog">
+            <h5>Serving Time<span>15-36 mins</span></h5>
+            <div class="p2">
+                <div></div>
+            </div>
+        </div>
+        <div class="title">
+            <h3>Search for</h3>
+        </div>
+        <div class="search-btns">
+            <button class="active">298 recipes</button>
+            <button>78 profiles</button>
+            <button>326 tags</button>
+        </div>
+        <button type="submit" class="submit">Apply Filter</button>
+    </aside>
+    <!-- search-rec section  -->
+    <div class="container">
+        <section id="search-rec">
+            <!-- start trending div  -->
+            <div class="trending">
+                <div class="title">
+                    <h3>Trending Recipes</h3>
+                    <a href="#">See all trending</a>
+                </div>
+                <div class="cards">
+                    <!-- start card  -->
+                    <div class="card">
+                        <img src="images/search/t1.png" alt="">
+                        <p>Banana and Mandarin Buns</p>
+                    </div>
+                    <!-- start card  -->
+                    <div class="card">
+                        <img src="images/search/t2.png" alt="">
+                        <p>Coconut Pound Cake</p>
+                    </div>
+                    <!-- start card  -->
+                    <div class="card">
+                        <img src="images/search/t3.png" alt="">
+                        <p>Cardamom and Cranberry Pastry</p>
+                    </div>
+                    <!-- start card  -->
+                    <div class="card">
+                        <img src="images/search/t4.png" alt="">
+                        <p>Dried Basil & Mint Bear</p>
+                    </div>
+                    <!-- start card  -->
+                    <div class="card">
+                        <img src="images/search/t5.png" alt="">
+                        <p>Blanched Lime Snapper</p>
+                    </div>
+                </div>
+            </div>
+            <!-- filter div  -->
+            <div class="filter">
+                <div class="title">
+                    <h3>What can I make with..</h3>
+                    <a href="#">See all Top Ingredients</a>
+                </div>
+                <ul class="tabs">
+                    <li class="active" data-cat=".first">Potato</li>
+                    <li data-cat=".second">Tomato</li>
+                    <li data-cat=".third">Pumpkin</li>
+                    <li data-cat=".four">Banana</li>
+                    <li data-cat=".five">Beef</li>
+                    <li data-cat=".six">Seaweed</li>
+                </ul>
+                <div class="content">
+                    <div class="first">
+                        <div class="cards">
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t1.png" alt="">
+                                <p>Banana and Mandarin Buns</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t2.png" alt="">
+                                <p>Coconut Pound Cake</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t3.png" alt="">
+                                <p>Cardamom and Cranberry Pastry</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t4.png" alt="">
+                                <p>Dried Basil & Mint Bear</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t5.png" alt="">
+                                <p>Blanched Lime Snapper</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div class="cards">
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t1.png" alt="">
+                                <p>Banana and Mandarin Buns</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t3.png" alt="">
+                                <p>Cardamom and Cranberry Pastry</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t4.png" alt="">
+                                <p>Dried Basil & Mint Bear</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t5.png" alt="">
+                                <p>Blanched Lime Snapper</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third">
+                        <div class="cards">
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t1.png" alt="">
+                                <p>Banana and Mandarin Buns</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t4.png" alt="">
+                                <p>Dried Basil & Mint Bear</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t5.png" alt="">
+                                <p>Blanched Lime Snapper</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="four">
+                        <div class="cards">
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t4.png" alt="">
+                                <p>Dried Basil & Mint Bear</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t1.png" alt="">
+                                <p>Banana and Mandarin Buns</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t2.png" alt="">
+                                <p>Coconut Pound Cake</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t3.png" alt="">
+                                <p>Cardamom and Cranberry Pastry</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t5.png" alt="">
+                                <p>Blanched Lime Snapper</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="five">
+                        <div class="cards">
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t4.png" alt="">
+                                <p>Dried Basil & Mint Bear</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t5.png" alt="">
+                                <p>Blanched Lime Snapper</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="six">
+                        <div class="cards">
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t1.png" alt="">
+                                <p>Banana and Mandarin Buns</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t3.png" alt="">
+                                <p>Cardamom and Cranberry Pastry</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t4.png" alt="">
+                                <p>Dried Basil & Mint Bear</p>
+                            </div>
+                            <!-- start card  -->
+                            <div class="card">
+                                <img src="images/search/t5.png" alt="">
+                                <p>Blanched Lime Snapper</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- profiles div  -->
+            <div class="profiles">
+                <div class="title">
+                    <h3>Top Profiles</h3>
+                    <a href="#">See all Top Profiles</a>
+                </div>
+                <div class="boxes">
+                    <!-- start box  -->
+                    <div class="box">
+                        <img src="images/search/bg1.png" alt="">
+                        <div class="pic">
+                            <img src="images/search/p1.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h5>Jennifer Lawred</h5>
+                            <div class="details">
+                                <div><span>289</span> <span>recipes</span></div>
+                                <div><span>8k</span> <span>followers</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- start box  -->
+                    <div class="box">
+                        <img src="images/search/bg2.png" alt="">
+                        <div class="pic">
+                            <img src="images/search/p2.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h5>Pan Hyuk</h5>
+                            <div class="details">
+                                <div><span>289</span> <span>recipes</span></div>
+                                <div><span>8k</span> <span>followers</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- start box  -->
+                    <div class="box">
+                        <img src="images/search/bg3.png" alt="">
+                        <div class="pic">
+                            <img src="images/search/p3.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h5>Amish Shiravadakar</h5>
+                            <div class="details">
+                                <div><span>289</span> <span>recipes</span></div>
+                                <div><span>8k</span> <span>followers</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- start box  -->
+                    <div class="box">
+                        <img src="images/search/bg4.png" alt="">
+                        <div class="pic">
+                            <img src="images/search/p4.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h5>Nout Golstein</h5>
+                            <div class="details">
+                                <div><span>289</span> <span>recipes</span></div>
+                                <div><span>8k</span> <span>followers</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- custom js link  -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
